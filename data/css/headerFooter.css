@@ -73,7 +73,6 @@ h4 {
     margin-top: 3vh;
     color: black;
     font-size: 20px;
-    letter-spacing: 3px;
 }
 
 #copi {
@@ -81,4 +80,12 @@ h4 {
     color: black;
     text-decoration: none;
     text-align: right;
+}
+@media screen and (max-width: 500px) {
+    h4 {
+        font-size: 20px;
+    }
+    #copi{
+        font-size: 10px;
+    }
 }

@@ -36,3 +36,12 @@ form{
     transition: 0.6s;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 500px) {
+    form{
+        width: 60vw;
+    }
+    #submit{
+        width: 20vw;
+    }
+}

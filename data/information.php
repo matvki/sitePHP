@@ -5,8 +5,6 @@ if (!isset($_SESSION['userName'])) {
 } else { ?>
     <!DOCTYPE html>
     <html lang="fr">
-
-    
     <head>
         <link rel="icon" type="image/png" href="./img/favicon.png" />
         <meta charset="UTF-8">
