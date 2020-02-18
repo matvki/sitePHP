@@ -1,52 +1,66 @@
 /* header */
-header>ul{
+header{
+    position: fixed;
+    top: 0;
+}
+header>ul {
     justify-content: space-around;
     width: 100vw;
     height: 5vh;
     background-color: rgb(97, 45, 45);
     align-items: center;
 }
-header li{
+
+header li {
     list-style: none;
 }
+
 header>ul>li:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
-a{
+
+a {
     color: rgb(161, 161, 161);
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(255, 255, 255);
 }
 
 /* menu deroulant user */
-span{
+
+span {
     color: rgb(161, 161, 161);
     text-decoration: none;
 }
-span:hover{
+
+span:hover {
     color: rgb(255, 255, 255);
 }
-#scroll{
+
+#scroll {
     display: flex;
     text-align: center;
     justify-content: center;
 }
-#scroll>ul{
+
+#scroll>ul {
     display: none;
     position: absolute;
     top: 1.8vh;
 }
 
-#scroll:hover ul{
+#scroll:hover ul {
     display: block;
     background-color: rgb(97, 45, 45);
     padding: 0 5px 5px;
     border-radius: 0 0 10% 10%;
 }
+
 /* footer */
+
 footer {
     width: 100vw;
     height: 20vh;
@@ -55,6 +69,7 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
 h4 {
     margin-top: 10vh;
     color: black;
