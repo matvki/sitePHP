@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <link rel="icon" type="image/png" href="./img/favicon.png" />
     <meta charset="UTF-8">
@@ -8,10 +9,16 @@
     <link rel="stylesheet" href="./css/login.css">
     <title>TAF1 | Accueil</title>
 </head>
+
 <body>
     <?php include_once './templates/header.php' ?>
+    <?php if (($_SESSION['name'] == 'Jon' || $_SESSION['name'] == 'jon' || $_SESSION['name'] == 'JOn' || $_SESSION['name'] == 'JON' || $_SESSION['name'] == 'jOn' || $_SESSION['name'] == 'jON' || $_SESSION['name'] == 'joN') && ( $_SESSION['password'] == '1234' )){
+        header('Location: /');
+    } else {
+        echo '<script type="text/javascript">window.alert("movais mot de passe");</script>';
+    } ?>
     <div id="alignCenter" class="flex">
-        <form action="./controllers/login.php" method="$_POST">
+        <form action="./controllers/log.php" method="POST">
             <h1>Connexion</h1>
             <div id="inputForm" class="flex">
                 <div class="inputLabel">
@@ -27,4 +34,5 @@
         </form>
     </div>
 </body>
+
 </html>
