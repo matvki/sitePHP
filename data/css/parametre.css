@@ -6,7 +6,7 @@ main{
     background-image: url(../img/pitstop.jpg);
 }
 form{
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color: rgba(124, 124, 124, 0.795);
     border: solid 3px black;
     width: 45vw;
     height: 60vh;

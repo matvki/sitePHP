@@ -57,7 +57,7 @@ if (!isset($_SESSION['userName'])) {
                     </div>
                     <!-- textO for text other and textI for text Index -->
                 </div>
-                <button type="submit">Validé</button>
+                <button type="submit">Valider</button>
             </form>
         </main>
         <?php include_once './templates/footer.php' ?>

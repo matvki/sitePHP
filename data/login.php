@@ -32,7 +32,7 @@
                         <label for="password">Votre mot de passe : </label>
                         <input type="password" name="password" id="password" value="1234">
                     </div>
-                    <button type="submit" id="submit">Validé</button>
+                    <button type="submit" id="submit">Valider</button>
                 </div>
             </form>
         </div>
