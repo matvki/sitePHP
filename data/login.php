@@ -12,9 +12,10 @@
 
 <body>
     <?php include_once './templates/header.php' ?>
-    <?php if (($_SESSION['name'] == 'Jon' || $_SESSION['name'] == 'jon' || $_SESSION['name'] == 'JOn' || $_SESSION['name'] == 'JON' || $_SESSION['name'] == 'jOn' || $_SESSION['name'] == 'jON' || $_SESSION['name'] == 'joN') && ( $_SESSION['password'] == '1234' )){
+    <?php if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
+    } elseif (($_SESSION['name'] == 'Jon' || $_SESSION['name'] == 'jon' || $_SESSION['name'] == 'JOn' || $_SESSION['name'] == 'JON' || $_SESSION['name'] == 'jOn' || $_SESSION['name'] == 'jON' || $_SESSION['name'] == 'joN') && ( $_SESSION['password'] == '1234' )){
         header('Location: /');
-    } else {
+    }else {
         echo '<script type="text/javascript">window.alert("movais mot de passe");</script>';
     } ?>
     <div id="alignCenter" class="flex">
