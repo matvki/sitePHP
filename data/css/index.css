@@ -1,6 +1,6 @@
 main{
     width: 100vw;
-    min-height: 80vh;
+    min-height: 90vh;
     text-align: center;
     flex-direction: column;
     align-items: center;
@@ -20,4 +20,10 @@ h1{
 }
 .unlog:hover{
     color: black;
+}
+#picture{
+    width: 80vw;
+}
+img{
+    width: 100%;
 }
