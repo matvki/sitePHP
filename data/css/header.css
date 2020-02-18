@@ -19,3 +19,29 @@ a{
 a:hover{
     color: rgb(255, 255, 255);
 }
+
+/* menu deroulant user */
+span{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+span:hover{
+    color: rgb(255, 255, 255);
+}
+#scroll{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#scroll>ul{
+    display: none;
+    position: absolute;
+    top: 1.8vh;
+}
+
+#scroll:hover ul{
+    display: block;
+    background-color: rgb(97, 45, 45);
+    padding: 0 5px 5px;
+    border-radius: 0 0 10% 10%;
+}
