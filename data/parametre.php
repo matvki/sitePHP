@@ -18,46 +18,45 @@ if (!isset($_SESSION['userName'])) {
     <body>
         <?php include_once './templates/header.php' ?>
         <main class="flex">
-            <form action="./controller/para.php" method="POST">
+            <form action="./controller/para.php" method="POST" class="flex">
                 <h1>Bienvenu dans vos paramètres!</h1>
-                <p>C'est ici que vous pourrez selectionner si vous voulez afficher les images de tel ou tel page ainsi que leurs texte.</p>
-                <div id="pageOne">
+                <p>C'est ici que vous pourrez selectionner si vous voulez afficher</p><p id="p2"> les images de tel ou tel page ainsi que leurs texte.</p>
+                <div id="pageOne" class="choice">
                     <h3>Vos préférences pour la page d'acceuil: </h3>
                     <div id="picture">
                         <p>Voulez-vous afficher l'image ?</p>
-                        <input type="radio" name="picture" id="picturePOY" value="yes">
+                        <input type="radio" name="pictureI" class="picturePOY" value="yes" checked>
                         <label for="picturePOY">Oui</label>
-                        <input type="radio" name="picture" id="picturePON" value="no">
+                        <input type="radio" name="pictureI" class="picturePON" value="no">
                         <label for="picturePON">Non</label>
                     </div>
                     <div id="text">
                         <p>Voulez-vous afficher le texte ?</p>
-                        <input type="radio" name="text" id="textPOY" value="yes">
+                        <input type="radio" name="textI" class="textPOY" value="yes" checked>
                         <label for="textPOY">Oui</label>
-                        <input type="radio" name="text" id="textPON" value="no">
+                        <input type="radio" name="textI" class="textPON" value="no">
                         <label for="textPON">Non</label>
                     </div>
                 </div>
-                <div id="pageOne">
+                <div id="pageTwo" class="choice">
                     <h3>Vos préférences pour la page d'information: </h3>
                     <div id="picture">
                         <p>Voulez-vous afficher les images ?</p>
-                        <input type="radio" name="picture" id="picturePTY" value="yes">
+                        <input type="radio" name="pictureO" class="picturePTY" value="yes" checked>
                         <label for="picturePTY">Oui</label>
-                        <input type="radio" name="picture" id="picturePTN" value="no">
+                        <input type="radio" name="pictureO" class="picturePTN" value="no">
                         <label for="picturePTN">Non</label>
                     </div>
                     <div id="text">
                         <p>Voulez-vous afficher les textes ?</p>
-                        <input type="radio" name="text" id="textPTY" value="yes">
+                        <input type="radio" name="textO" class="textPTY" value="yes" checked>
                         <label for="textPTY">Oui</label>
-                        <input type="radio" name="text" id="textPTN" value="no">
+                        <input type="radio" name="textO" class="textPTN" value="no">
                         <label for="textPTN">Non</label>
                     </div>
+                    <!-- textO pour text other et textI pour text Index -->
                 </div>
-                <div id="pageTwo">
-
-                </div>
+                <button type="submit">Validé</button>
             </form>
         </main>
     </body>
