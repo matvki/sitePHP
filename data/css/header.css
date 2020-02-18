@@ -1,0 +1,21 @@
+header>ul{
+    justify-content: space-around;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(97, 45, 45);
+    align-items: center;
+}
+header li{
+    list-style: none;
+}
+header>ul>li:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
