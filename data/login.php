@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/login.css">
-    <title>TAF1 | Accueil</title>
+    <title>TAF1 | Connexion</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     } elseif (($_SESSION['name'] == 'Jon' || $_SESSION['name'] == 'jon' || $_SESSION['name'] == 'JOn' || $_SESSION['name'] == 'JON' || $_SESSION['name'] == 'jOn' || $_SESSION['name'] == 'jON' || $_SESSION['name'] == 'joN') && ( $_SESSION['password'] == '1234' )){
         header('Location: /');
     }else {
-        echo '<script type="text/javascript">window.alert("movais mot de passe");</script>';
+        echo '<script type="text/javascript">window.alert("mauvais identifiant ou mot de passe");</script>';
     } ?>
     <div id="alignCenter" class="flex">
         <form action="./controllers/log.php" method="POST">
