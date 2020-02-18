@@ -55,7 +55,7 @@ if (!isset($_SESSION['userName'])) {
                         <input type="radio" name="textO" class="textPTN" value="no" <?= ($_SESSION['two']['text'] == 'no') ? 'checked' : '' ?>>
                         <label for="textPTN">Non</label>
                     </div>
-                    <!-- textO pour text other et textI pour text Index -->
+                    <!-- textO for text other and textI for text Index -->
                 </div>
                 <button type="submit">Validé</button>
             </form>
