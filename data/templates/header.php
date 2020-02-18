@@ -2,8 +2,8 @@
 <header>
     <ul class="flex">
         <li><a href="/">Accueil</a></li>
-        <li><a href="./information.php">Information</a></li>
         <?php if (isset($_SESSION['userName'])) : ?>
+            <li><a href="./information.php">Information</a></li>
             <li id="scroll">
                 <span><?= $_SESSION['userName'] ?></span>
                 <ul>

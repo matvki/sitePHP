@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="./img/favicon.png" />
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/headerFooter.css">
   <link rel="stylesheet" href="./css/index.css">
   <title>TAF1 | Accueil</title>
 </head>
@@ -27,7 +27,7 @@
       <?php endif ?>
       <?php
       if ($_SESSION['one']['text'] == 'yes') : ?>
-        <p>
+        <p id="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, omnis. Exercitationem cupiditate repellendus vitae est nemo sequi porro voluptatem esse alias repellat! Eius ipsum rem soluta blanditiis amet accusamus cumque.
           Vero eum repudiandae facilis dolores perspiciatis ratione? Nulla ipsam tenetur in pariatur quod corporis doloribus, esse repellat cupiditate! Fuga velit laboriosam sint amet sapiente dolore dolores ad natus, fugit quod?
           Aperiam, aliquid itaque? Earum laboriosam temporibus totam facilis numquam dicta reprehenderit eveniet! Cum facilis vitae quas ipsum accusantium similique vero iste ducimus impedit eos! Ullam corrupti ipsum nam in tempora!
@@ -38,6 +38,7 @@
       <?php endif ?>
     <?php endif ?>
   </main>
+  <?php include_once './templates/footer.php' ?>
 
 </body>
 
