@@ -1,4 +1,4 @@
-<?php session_start() ?>
+
 <header>
     <ul class="flex">
         <li><a href="/">Accueil</a></li>
@@ -7,7 +7,7 @@
             <li id="scroll">
                 <span><?= $_SESSION['userName'] ?></span>
                 <ul>
-                    <li><a href="#">Paramètre</a></li>
+                    <li><a href="./parametre.php">Paramètre</a></li>
                     <li><a href="./controllers/delog.php">Déconnection</a></li>
                 </ul>
             </li>

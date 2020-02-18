@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,12 +18,14 @@
     <div id="picture">
       <img src="./img/lewis.jpg" alt="">
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, omnis. Exercitationem cupiditate repellendus vitae est nemo sequi porro voluptatem esse alias repellat! Eius ipsum rem soluta blanditiis amet accusamus cumque.
-    Vero eum repudiandae facilis dolores perspiciatis ratione? Nulla ipsam tenetur in pariatur quod corporis doloribus, esse repellat cupiditate! Fuga velit laboriosam sint amet sapiente dolore dolores ad natus, fugit quod?
-    Aperiam, aliquid itaque? Earum laboriosam temporibus totam facilis numquam dicta reprehenderit eveniet! Cum facilis vitae quas ipsum accusantium similique vero iste ducimus impedit eos! Ullam corrupti ipsum nam in tempora!
-    Non, expedita eius aperiam necessitatibus ad, error aut quibusdam, quo doloremque dicta corrupti. Quos reiciendis, quam in neque inventore officia natus voluptatibus iure vel voluptates mollitia distinctio perspiciatis quasi. Corporis!
-    Corrupti quasi commodi saepe reprehenderit molestias deleniti minima. Voluptatibus illum dolorem debitis fugit, exercitationem iusto quidem sapiente quo. Dolorem expedita sequi dolorum officiis blanditiis similique labore exercitationem non culpa ipsa.
-    Enim, itaque aspernatur exercitationem a cumque perferendis amet sequi neque omnis repellat sunt ad maiores modi est! Nemo aperiam accusantium ipsam maiores vero unde eaque quam harum, eveniet consectetur aut!</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, omnis. Exercitationem cupiditate repellendus vitae est nemo sequi porro voluptatem esse alias repellat! Eius ipsum rem soluta blanditiis amet accusamus cumque.
+      Vero eum repudiandae facilis dolores perspiciatis ratione? Nulla ipsam tenetur in pariatur quod corporis doloribus, esse repellat cupiditate! Fuga velit laboriosam sint amet sapiente dolore dolores ad natus, fugit quod?
+      Aperiam, aliquid itaque? Earum laboriosam temporibus totam facilis numquam dicta reprehenderit eveniet! Cum facilis vitae quas ipsum accusantium similique vero iste ducimus impedit eos! Ullam corrupti ipsum nam in tempora!
+      Non, expedita eius aperiam necessitatibus ad, error aut quibusdam, quo doloremque dicta corrupti. Quos reiciendis, quam in neque inventore officia natus voluptatibus iure vel voluptates mollitia distinctio perspiciatis quasi. Corporis!
+      Corrupti quasi commodi saepe reprehenderit molestias deleniti minima. Voluptatibus illum dolorem debitis fugit, exercitationem iusto quidem sapiente quo. Dolorem expedita sequi dolorum officiis blanditiis similique labore exercitationem non culpa ipsa.
+      Enim, itaque aspernatur exercitationem a cumque perferendis amet sequi neque omnis repellat sunt ad maiores modi est! Nemo aperiam accusantium ipsam maiores vero unde eaque quam harum, eveniet consectetur aut!
+    </p>
   </main>
 
 </body>
