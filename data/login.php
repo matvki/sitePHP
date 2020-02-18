@@ -26,11 +26,11 @@
                 <div id="inputForm" class="flex">
                     <div class="inputLabel">
                         <label for="name">Votre nom : </label>
-                        <input type="text" name="name" id="name" value="jon">
+                        <input type="text" name="name" id="name">
                     </div>
                     <div class="inputLabel">
                         <label for="password">Votre mot de passe : </label>
-                        <input type="password" name="password" id="password" value="1234">
+                        <input type="password" name="password" id="password">
                     </div>
                     <button type="submit" id="submit">Valider</button>
                 </div>
