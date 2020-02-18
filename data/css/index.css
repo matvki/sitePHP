@@ -13,3 +13,9 @@ p{
     width: 80vw;
     text-align: center;
 }
+.unlog{
+    color: black;
+}
+.unlog:hover{
+    color: black;
+}
