@@ -14,7 +14,9 @@
 <body>
   <?php include_once './templates/header.php' ?>
   <main class="flex">
-    <h1>Bienvenu sur votre boutique de F1</h1>
+    <h1>Bienvenu <?php if (isset($_SESSION['userName'])) {
+      echo "$_SESSION[userName]";
+    } ?> sur votre boutique de F1</h1>
     <div id="picture">
       <img src="./img/lewis.jpg" alt="">
     </div>
