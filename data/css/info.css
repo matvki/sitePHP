@@ -29,6 +29,7 @@ p{
     text-align: justify;
 }
 
+/* responcive under 500px */
 @media screen and (max-width: 500px) {
     main{
         display: block;

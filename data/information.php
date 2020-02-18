@@ -3,6 +3,7 @@ session_start();
 if (!isset($_SESSION['userName'])) {
     header('Location: /');
 } else { ?>
+
     <!DOCTYPE html>
     <html lang="fr">
     <head>
@@ -78,8 +79,7 @@ if (!isset($_SESSION['userName'])) {
             <?php endif ?>
         </main>
         <?php include_once './templates/footer.php' ?>
-
     </body>
 <?php } ?>
 
-    </html>
+</html>

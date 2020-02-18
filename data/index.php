@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/headerFooter.css">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/accueil.css">
   <title>TAF1 | Accueil</title>
 </head>
 
@@ -37,7 +37,6 @@
     <?php endif ?>
   </main>
   <?php include_once './templates/footer.php' ?>
-
 </body>
 
 </html>

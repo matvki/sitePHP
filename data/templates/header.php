@@ -1,4 +1,3 @@
-
 <header>
     <ul class="flex">
         <li><a href="/">Accueil</a></li>
