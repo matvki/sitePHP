@@ -14,7 +14,7 @@
 <body>
   <?php include_once './templates/header.php' ?>
   <main class="flex">
-    <h1>Bienvenu <?php if (isset($_SESSION['userName'])) {
+    <h1>Bienvenue <?php if (isset($_SESSION['userName'])) {
                     echo "$_SESSION[userName]";
                   } ?> sur votre boutique de F1</h1>
     <?php if (!isset($_SESSION['userName'])) : ?>

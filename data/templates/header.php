@@ -2,7 +2,7 @@
 <header>
     <ul class="flex">
         <li><a href="/">Accueil</a></li>
-        <li><a href="#">Information</a></li>
+        <li><a href="./information.php">Information</a></li>
         <?php if (isset($_SESSION['userName'])) : ?>
             <li id="scroll">
                 <span><?= $_SESSION['userName'] ?></span>

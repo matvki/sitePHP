@@ -19,7 +19,7 @@ if (!isset($_SESSION['userName'])) {
         <?php include_once './templates/header.php' ?>
         <main class="flex">
             <form action="./controllers/para.php" method="POST" class="flex">
-                <h1>Bienvenu dans vos paramètres!</h1>
+                <h1>Bienvenue dans vos paramètres!</h1>
                 <p>C'est ici que vous pourrez selectionner si vous voulez afficher</p><p id="p2"> les images de tel ou tel page ainsi que leurs texte.</p>
                 <div id="pageOne" class="choice">
                     <h3>Vos préférences pour la page d'acceuil: </h3>
